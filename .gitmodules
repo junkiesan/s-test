@@ -1,0 +1,3 @@
+[submodule "rails-quizzator"]
+	path = rails-quizzator
+	url = https://github.com/junkiesan/s-test/rails-quizzator
