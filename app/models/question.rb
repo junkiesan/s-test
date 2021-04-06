@@ -3,6 +3,6 @@ class Question < ApplicationRecord
   belongs_to :quizz
   has_many :answers, dependent: :destroy
   # Let a Question having 3 answers
-  validates_length_of :questions, maximum: 4
+  validates_length_of :answers, maximum: 4
 end
  
