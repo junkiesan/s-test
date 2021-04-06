@@ -1,2 +1,7 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<h1>Welcome on Quizzator !</h1>
+
+<% @quizzes.each do |quizz| %>
+  <h3> <%= quizz.title %> </h3>
+  <p> <%= quizz.description %> </p>
+  <%# <%= link_to 'Play', path %> %>
+<% end %>
