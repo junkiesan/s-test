@@ -20,21 +20,21 @@ puts 'First Question in creation'
 puts '1 answer'
 answer_1_1 = Answer.create!(title: 'Generates objects', status: true, question_id: question_1.id )
 puts '2 answer'
-answer_1_2 = Answer.create!(title: 'false', status: false, question_id: question_1.id)
+answer_1_2 = Answer.create!(title: 'A place', status: false, question_id: question_1.id)
 puts '3 answer'
-answer_1_3 = Answer.create!(title: 'false', status: false, question_id: question_1.id)
+answer_1_3 = Answer.create!(title: 'A glass with a c', status: false, question_id: question_1.id)
 puts '4 answer'
-answer_1_4 = Answer.create!(title: 'false', status: false, question_id: question_1.id)
+answer_1_4 = Answer.create!(title: 'Like a module', status: false, question_id: question_1.id)
 
 puts 'Second Question in creation'
 question_2 = Question.create!(title: 'What is a module?', good_answer: 4, quizz_id: Quizz.last.id)
 
 puts '1 answer'
-answer_2_1 = Answer.create!(title: 'false', status: false, question_id: question_2.id )
+answer_2_1 = Answer.create!(title: 'Like a class', status: false, question_id: question_2.id )
 puts '2 answer'
-answer_2_2 = Answer.create!(title: 'false', status: false, question_id: question_2.id)
+answer_2_2 = Answer.create!(title: 'In the millennium falcon', status: false, question_id: question_2.id)
 puts '3 answer'
-answer_2_3 = Answer.create!(title: 'false', status: false, question_id: question_2.id)
+answer_2_3 = Answer.create!(title: 'Chez Ruby doc !', status: false, question_id: question_2.id)
 puts '4 answer'
 answer_2_4 = Answer.create!(title: 'Store logic', status: true, question_id: question_2.id)
 
@@ -42,12 +42,12 @@ puts 'Third Question in creation'
 question_3 = Question.create!(title: 'What is Ruby?', good_answer: 2, quizz_id: Quizz.last.id)
 
 puts '1 answer'
-answer_3_1 = Answer.create!(title: 'false', status: false, question_id: question_3.id )
+answer_3_1 = Answer.create!(title: 'A rock', status: false, question_id: question_3.id )
 puts '2 answer'
 answer_3_2 = Answer.create!(title: 'A programming language', status: true, question_id: question_3.id)
 puts '3 answer'
-answer_3_3 = Answer.create!(title: 'false', status: false, question_id: question_3.id)
+answer_3_3 = Answer.create!(title: 'My wedding ring', status: false, question_id: question_3.id)
 puts '4 answer'
-answer_3_4 = Answer.create!(title: 'false', status: false, question_id: question_3.id)
+answer_3_4 = Answer.create!(title: 'A Pokemon video game', status: false, question_id: question_3.id)
 
 puts 'QUIZZ is GENERATED'
