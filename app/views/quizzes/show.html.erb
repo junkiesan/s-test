@@ -1,1 +1,16 @@
 <h1> <%= @quizz.title  %> </h1>
+<p> <%= @quizz.description %> </p>
+<p> <%= @quizz.difficulty %> </p>
+<%= form_for @answer do |f| %>
+  <% @questions.each do |question| %>
+  <h1><%= question.title %> </h1>
+        <% question.answers.each do |answer| %>
+          <% "true" ? answer.status == true : answer.status == false %>
+          <%= radio_button_tag answer.title, answer.status %>
+          <%= answer.title %></br>
+        <% end %>
+  <% end %>
+  <%= f.submit %>
+<% end %>
+<%# <%= button_to 'Submit', new_quiz_path(@quizz), :method => :post %> %>
+<%# <%= f.hidden_field :user_id, :value => params[:user_id] %> %>

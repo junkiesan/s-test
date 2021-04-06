@@ -3,5 +3,5 @@
 <% @quizzes.each do |quizz| %>
   <h3> <%= quizz.title %> </h3>
   <p> <%= quizz.description %> </p>
-  <%# <%= link_to 'Play', path %> %>
+  <%= link_to 'Play', quiz_path(quizz.id) %>
 <% end %>

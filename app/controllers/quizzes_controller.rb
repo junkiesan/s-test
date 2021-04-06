@@ -1,9 +1,20 @@
 class QuizzesController < ApplicationController
   before_action :set_quizz, only: [:show]
   
+  def index
+    @quizzes = Quizz.all
+  end
+
   def show
-    @questions = Quizz.questions
-    @answers = @questions.answers
+    @questions = @quizz.questions
+    @answer = Answer.new
+    @good_answer = Answer.where(status: true)
+  end
+
+  def create
+    @quizz = Quizz.new(quizz_params)
+    @quizz.save!
+    redirect_to quiz_path
   end
 
   private
