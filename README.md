@@ -5,6 +5,9 @@ For it's first launch run the following command :
 bundle install
 yarn install
 ```
+```
+yarn install
+```
 
 Create the db
 
@@ -17,6 +20,12 @@ Then run the migrations
 ```
 rails db:migrate
 ```
+Now run the seeds so you can answer quizzes
+
+```
+rails db:seed
+```
+
 ## Researches
 
 I defined the project and created a roadmap that I put on [Github project](https://github.com/junkiesan/s-test/projects/1).
