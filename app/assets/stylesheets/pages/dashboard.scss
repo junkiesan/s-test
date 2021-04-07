@@ -1,0 +1,14 @@
+.dashboard {
+  background-color: #0E3147;
+  margin-top: 20px !important;
+  .title { text-align: center; }
+}
+
+.user__info {
+  img { width: 200px; }
+  display: flex;
+  ul { 
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+}

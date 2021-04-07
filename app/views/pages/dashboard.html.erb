@@ -1,2 +1,11 @@
-<h1>Pages#dashboard</h1>
-<p>Find me in app/views/pages/dashboard.html.erb</p>
+<div class="container dashboard">
+  <div class="title">
+    <h1>Welcome <%= @user.username %> !</h1>
+  </div>
+  <div class="user__info">
+    <%= image_tag "quizzator_avatar.svg" %>
+    <ul>
+      <li> Title : <%= @scores[0].first %> ||  Score : <%= @scores[0].last %> </li>
+    </ul>
+  </div>
+</div>
