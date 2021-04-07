@@ -1,0 +1,28 @@
+// Place all the styles related to the Quizzes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.show_quizz {
+  text-align: center;
+  background-color: #0E3147;
+  margin-top: 5% !important;
+  border-radius: 10px !important;
+}
+.description {
+  font-weight: 5OO;
+  font-size: 24px;
+}
+.difficulty {
+  margin-left: 45%;
+  background-color: #E84553;
+  border: 1 solid #0E3147;
+  width: 10%;
+  border-radius: 5px;
+}
+
+.question {
+  padding: 20px;
+}
+
+.answer {
+  padding: 10px;
+}

@@ -11,7 +11,7 @@ Question.destroy_all
 Answer.destroy_all
 
 puts 'First Quizz in creation'
-quizz = Quizz.create!({ title: 'Ruby Programming', description: 'The best programming quizz about Ruby.', difficulty: 'medium' })
+quizz = Quizz.create!({ title: 'Ruby Programming', description: 'The best programming quizz to discover Ruby smoothly.', difficulty: 'medium' })
 # quizz_1.save!
 puts 'First Question in creation'
 question_1 = Question.create!(title: 'What is a class?', good_answer: 1, quizz_id: quizz.id)
