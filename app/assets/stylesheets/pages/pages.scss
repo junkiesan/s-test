@@ -1,3 +1,34 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.hero {
+  width: 100%;
+  height: 20vh;
+  background-color: #0E3147;
+  text-align: center;
+  h1 {
+    padding-top: 7vh;
+  }
+}
+
+.quizzes {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.quizz {
+  background-color: #0E3147;
+  padding: 1rem;
+  margin: 1rem;
+  width: 30%;
+  height: auto;
+  border-radius: 35px;
+  &.button {
+    position: fixed; 
+    left: 5px;
+    bottom: 5px;
+  }
+}

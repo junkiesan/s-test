@@ -68,7 +68,7 @@ a, a:visited, a:hover {
 .container {
   max-width: 69.375rem;
   margin: 0 auto;
-  background-color: #0E3147;
+  // background-color: #0E3147;
   border-radius: 35px;
   padding: 1rem;
   &--pall {
@@ -140,6 +140,7 @@ button, .button {
   display: inline-block;
   padding: 0.875rem 2.1875rem;
   background-color: #E84553;
+  text-decoration: none;
   border: 0;
   border-radius: 50px;
   cursor: pointer;
