@@ -4,6 +4,7 @@ class Question < ApplicationRecord
   has_many :answers, dependent: :destroy
   # Let a Question having 3 answers
   validates_length_of :answers, maximum: 4
+  validates :title, presence: true
 
 end
  
