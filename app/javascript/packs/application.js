@@ -15,3 +15,4 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+console.log("Thanks for the test, that was fun 🏄🏻‍♂️")
