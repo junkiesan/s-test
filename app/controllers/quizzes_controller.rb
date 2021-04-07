@@ -1,4 +1,5 @@
 class QuizzesController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_quizz, only: [:show]
   
   def index
