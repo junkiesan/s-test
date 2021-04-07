@@ -1,2 +1,12 @@
-<h1>Pages#dashboard</h1>
-<p>Find me in app/views/pages/dashboard.html.erb</p>
+<div class="container dashboard">
+  <div class="title">
+    <h1>Welcome <%= @user.username %> !</h1>
+  </div>
+  <div class="user__info">
+    <%= image_tag "quizzator_avatar.svg" %>
+    <ul>
+    @user.scores.each do |score|
+    <li> <%= @score %></li>
+    </ul>
+  </div>
+</div>

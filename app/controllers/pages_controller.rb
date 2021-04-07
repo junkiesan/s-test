@@ -6,5 +6,7 @@ class PagesController < ApplicationController
 
   def dashboard
     @user = current_user
+    score = session[:score]
+    @scores = score.save!
   end
 end

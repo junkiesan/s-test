@@ -14,6 +14,7 @@
           </div>
         <% end %>
     </div>
+    <%= f.hidden_field :quizz, value: @quizz.title %>
     <% end %>
   <%= f.submit 'Finish Quizz', class: 'button' %>
   <% end %>
