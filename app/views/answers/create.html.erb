@@ -1,6 +1,8 @@
-<h1><%= @welcome %></h1>
+<div class="container create_answer">
+  <h1><%= @welcome %></h1>
 
-<p>Your score is <%= @score %></p>
+  <p>Your score is <%= @score %></p>
 
-<%= link_to 'Back Home', root_path %>
-<%= link_to 'See Dashboard', pages_dashboard_path %>
+  <%= link_to 'Back Home', root_path, class: 'button' %>
+  <%= link_to 'See Dashboard', pages_dashboard_path, class: 'button' %>
+</div>
