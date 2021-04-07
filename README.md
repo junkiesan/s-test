@@ -3,7 +3,6 @@ For it's first launch run the following command :
 
 ```
 bundle install
-yarn install
 ```
 ```
 yarn install
