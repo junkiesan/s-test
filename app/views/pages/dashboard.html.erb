@@ -5,8 +5,7 @@
   <div class="user__info">
     <%= image_tag "quizzator_avatar.svg" %>
     <ul>
-    @user.scores.each do |score|
-    <li> <%= @score %></li>
+      <li> <%= @scores[0].first %> ||  <%= @scores[0].last %> </li>
     </ul>
   </div>
 </div>
